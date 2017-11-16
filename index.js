@@ -83,13 +83,12 @@ const getLocationCode = zip => {
       return targetRow[1] + '-' + targetRow[4];
     }
   }
-  return false;
 };
 
 
 const convertToCsv = data => {
   slcsp = data.map(row => row.join(',')).join('\n');
-  fs.writeFile('./test.csv', slcsp, err => {
+  fs.writeFile(slcspCSV, slcsp, err => {
     if (err) throw err;
     console.log('SLCSPs added to slcsp.csv file!');
   });
