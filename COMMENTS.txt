@@ -1,0 +1,10 @@
+** Node environment required **
+
+1. (Optional): Replace slcsp.csv file in this directory (slcspHw) with a
+   different one you'd prefer to update with SLCSP rates
+2. Open your terminal and cd into this directory (slcspHw)
+3. Pass the following into your command line:  node index.js
+4. Check out your updated slcsp.csv file!
+
+
+Thanks :)
